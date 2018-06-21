@@ -1,0 +1,61 @@
+// Variable Overrides 
+$theme-colors: (
+  "primary": #00746E,
+  "secondary": #00B6AC,
+  "tertiary": #00312E,
+  "success": #005E59,
+  "info": #008A83,
+  "warning": #FFB03B,
+  //"danger": $danger,
+  "light": #EEE9D1,
+  "lighter": #ffffff,
+  "dark": #736D6D,
+  "darker": #170111
+);
+
+$body-bg: #ffffff;
+
+body {
+  font-family: 'museo-sans', sans-serif !important;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 100;
+}
+
+.bwimage {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+};
+
+.btn {
+  font-family:"museo";
+}
+
+.bg-cover {
+  background: url("../assets/images/pexels-photo-422218-crop1-bw2-teal-darker.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #ffffffaa;
+};
+
+.jumbotron {
+  min-height: 400px;
+};
+
+.icon-circle { 
+  margin: auto;
+  width: 175px;
+  height: 175px;
+  line-height: 175px;
+};
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
